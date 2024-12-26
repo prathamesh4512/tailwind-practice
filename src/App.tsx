@@ -1,9 +1,12 @@
 import { PseudoClasses } from "./components/pseudo-classes"
+import UtilityClasses from "./components/utility-classes"
 
 function App() {
 
   return (
-    <div>
+    <>
+    <UtilityClasses />
+
       <p>Temp p</p>
       <div className="abc rounded-50 h-10 w-10 bg-slate-400 text-white">
         50%
@@ -27,7 +30,7 @@ function App() {
       <p>h1</p>
       <p>h2</p>
       </div>
-    </div>
+    </>
   )
 }
 

@@ -3,9 +3,10 @@ import "./about.css";
 export const PseudoClasses = () => {
   return (
     <>
-    <p className="text-sm md:text-lg">
+    <p className="text-sm md:text-lg bg-red-100">
       Responsive Text
     </p>
+    <span className="m-1.23 p-1.23 gap-1.23 bg-" >Space</span>
       <p className="p-temp theme(color.blue)">
         Temp Paragraph
       </p>

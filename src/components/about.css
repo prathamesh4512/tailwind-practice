@@ -16,7 +16,9 @@
     color: theme(colors.blue);
     color : theme(colors.blue-500);
     color: theme(colors.red.200);
-    padding: theme(spacing.150);
+    padding: theme(space.150);
+    font-family: theme(fontFamily.sans);
+    font-family: theme(fontFamily.sans);
     padding: theme(spacing.[2.5]);
 }
 
