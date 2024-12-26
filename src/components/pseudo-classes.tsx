@@ -1,13 +1,21 @@
+import "./about.css";
+
 export const PseudoClasses = () => {
   return (
     <>
+    <p className="text-sm md:text-lg">
+      Responsive Text
+    </p>
+      <p className="p-temp theme(color.blue)">
+        Temp Paragraph
+      </p>
       <button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300">
         Save changes
       </button>
 
       <ul>
         {[1,2,3].map(ele=>(
-            <li key={ele} className="p-4 first:pt-0 last:pb-0">
+            <li key={ele} className="abc p-4 first:pt-0 last:pb-0">
                 {ele}
             </li>
         ))}

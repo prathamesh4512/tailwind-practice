@@ -1,0 +1,26 @@
+.about-heading{
+    @apply text-2xl
+}
+
+.p-tag{
+    padding : 50px;
+ 
+}
+
+.abc {
+    @apply about-heading;
+    @apply p-tag;
+}
+
+.p-temp{
+    color: theme(colors.blue);
+    color : theme(colors.blue-500);
+    color: theme(colors.red.200);
+    padding: theme(spacing.150);
+    padding: theme(spacing.[2.5]);
+}
+
+/* @media screen(sm) {
+    } */
+
+  

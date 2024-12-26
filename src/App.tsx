@@ -4,6 +4,10 @@ function App() {
 
   return (
     <div>
+      <p>Temp p</p>
+      <div className="abc rounded-50 h-10 w-10 bg-slate-400 text-white">
+        50%
+      </div>
       <ul>
         <li>h1</li>
         <li>h2</li>

@@ -5,7 +5,8 @@
 
 @layer base{
    p{
-    color:red
+    color:red;
+    @apply text-lg;
    }
    span{
     color:green
@@ -26,4 +27,20 @@
         justify-content: center;
     }
 }
+
+@layer utilities {
+    /* not recommended */
+    .rounded-50{
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* use 1 css property */
+    .content-auto{
+        content-visibility: auto;
+    }
+}
+
 
