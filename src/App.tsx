@@ -1,3 +1,5 @@
+import FlexClasses from "./components/flex-classes"
+import GridClasses from "./components/grid-claases"
 import { PseudoClasses } from "./components/pseudo-classes"
 import UtilityClasses from "./components/utility-classes"
 
@@ -5,7 +7,12 @@ function App() {
 
   return (
     <>
+    <GridClasses/>
+    <FlexClasses />
     <UtilityClasses />
+
+
+
 
       <p>Temp p</p>
       <div className="abc rounded-50 h-10 w-10 bg-slate-400 text-white">

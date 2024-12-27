@@ -34,7 +34,7 @@ export default {
           '100':"red",
           '200':"pink",
         }
-      }
+      },
     }
   },
   plugins: [],

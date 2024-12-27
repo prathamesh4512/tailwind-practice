@@ -25,4 +25,9 @@
 /* @media screen(sm) {
     } */
 
+/* display:grid;
+grid-template-columns:100px 200px
+grid-template-rows: repeat(2,50px) 
+grid-auto-rows: 100px  */
+
   
