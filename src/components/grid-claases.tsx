@@ -2,12 +2,12 @@ const GridClasses = () => {
   return (
     <>
       <div className="mb-20 grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4">
-        <div className="w-[250px] h-20 bg-slate-400"></div>
-        <div className="w-[250px] h-20 bg-slate-400"></div>
-        <div className="w-[250px] h-20 bg-slate-400"></div>
-        <div className="w-[250px] h-20 bg-slate-400"></div>
-        <div className="w-[250px] h-20 bg-slate-400"></div>
-        <div className="w-[250px] h-20 bg-slate-400"></div>
+        <div className="h-20 bg-slate-400 text-white col-span-2">A</div>
+        <div className="h-20 bg-slate-400 text-white col-span-full">B</div>
+        <div className=" h-20 bg-slate-400 -col-start-3 -col-end-1 ">C</div>
+        <div className=" h-20 bg-slate-400">D</div>
+        <div className=" h-20 bg-slate-400"></div>
+        <div className=" h-20 bg-slate-400"></div>
       </div>
       {/* <div className="grid grid-rows-[200px_minmax(900px,_1fr)_100px]"></div> */}
       <div className="grid grid-cols-[2fr_1fr] gap-4">

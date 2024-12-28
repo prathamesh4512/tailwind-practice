@@ -1,12 +1,18 @@
 import FlexClasses from "./components/flex-classes"
 import GridClasses from "./components/grid-claases"
 import { PseudoClasses } from "./components/pseudo-classes"
-import UtilityClasses from "./components/utility-classes"
+import UtilityClasses from "./components/utility-classes";
+import Subgrid from "./components/subgrid";
+import Testimonial from "./components/Testimonial";
+import Options from "./components/Options";
 
 function App() {
 
   return (
     <>
+    <Testimonial />
+    <Subgrid />
+    <Options />
     <GridClasses/>
     <FlexClasses />
     <UtilityClasses />
