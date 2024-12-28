@@ -7,11 +7,15 @@ const FlexClasses = () => {
         <div className="py-8">03</div>
       </div>
 
-      <div className="flex gap-4">
-      <p className="border border-black flex-1/2">D</p>
-      <p className="border flex-1">b</p>
-      <p className="border flex-1">c</p>
-      <p className="border flex-1/2">d</p>
+      <div className="flex gap-4 h-[200px]  
+      bg-[url('/images/abc.svg')]
+      "
+    
+      >
+      {/* <p className="border border-black flex-1/2">D</p> */}
+      {/* <p className="border flex-1">b</p> */}
+      {/* <p className="border flex-1">c</p> */}
+      {/* <p className="border flex-1/2">d</p> */}
     </div> 
     </div>
   );

@@ -5,22 +5,21 @@ import UtilityClasses from "./components/utility-classes";
 import Subgrid from "./components/subgrid";
 import Testimonial from "./components/Testimonial";
 import Options from "./components/Options";
+import Spacing from "./components/Spacing";
 
 function App() {
 
   return (
     <>
-    <Testimonial />
-    <Subgrid />
-    <Options />
-    <GridClasses/>
+    <Spacing />
+    {/* <Testimonial /> */}
+    {/* <Subgrid /> */}
+    {/* <Options /> */}
+    {/* <GridClasses/> */}
     <FlexClasses />
     <UtilityClasses />
 
-
-
-
-      <p>Temp p</p>
+      <p className="-m-[10px] min-w-f" >Temp p</p>
       <div className="abc rounded-50 h-10 w-10 bg-slate-400 text-white">
         50%
       </div>
