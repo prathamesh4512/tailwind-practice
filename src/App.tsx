@@ -6,11 +6,13 @@ import Subgrid from "./components/subgrid";
 import Testimonial from "./components/Testimonial";
 import Options from "./components/Options";
 import Spacing from "./components/Spacing";
+import Interactivity from "./components/Interactivity";
 
 function App() {
 
   return (
     <>
+    <Interactivity />
     <Spacing />
     {/* <Testimonial /> */}
     {/* <Subgrid /> */}
@@ -42,6 +44,42 @@ function App() {
       <p>h1</p>
       <p>h2</p>
       </div>
+
+      <div className="shadow hover:shadow-lg">
+      </div>
+
+      <div className="size-20 brightness-[1] opacity-[0.1] bg-fuchsia-400">
+
+      </div>
+
+      <div className="size-20 bg-neutral-400 border">
+
+      </div>
+
+      <table className="">
+  <thead>
+    <tr>
+      <th className="border">State</th>
+      <th className="border">City</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td className="border border-slate-700 ...">Indiana</td>
+      <td className="border border-slate-700 ...">Indianapolis</td>
+    </tr>
+    <tr>
+      <td className="border border-slate-700 ...">Ohio</td>
+      <td className="border border-slate-700 ...">Columbus</td>
+    </tr>
+    <tr>
+      <td className="border border-slate-700 ...">Michigan</td>
+      <td className="border border-slate-700 ...">Detroit</td>
+    </tr>
+  </tbody>
+</table>
+
+
     </>
   )
 }
