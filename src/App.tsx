@@ -12,11 +12,12 @@ function App() {
 
   return (
     <>
+    <PseudoClasses/>
+    <Options />
     <Interactivity />
     <Spacing />
     {/* <Testimonial /> */}
     {/* <Subgrid /> */}
-    {/* <Options /> */}
     {/* <GridClasses/> */}
     <FlexClasses />
     <UtilityClasses />
@@ -31,7 +32,6 @@ function App() {
         <li>h3</li>
 
       </ul>
-      <PseudoClasses/>
       <div className="max-sm:text-red-400">
         hello
       </div>

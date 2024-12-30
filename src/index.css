@@ -5,7 +5,7 @@
 
 @layer base{
    p{
-    color:white;
+    /* color:white; */
     @apply text-lg;
    }
    span{

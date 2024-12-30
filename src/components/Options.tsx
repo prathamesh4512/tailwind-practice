@@ -1,5 +1,6 @@
 const Options = () => {
   return (
+    <>
     <section className="grid place-items-center p-10 text-sm text-slate-200">
       <div className="grid w-72 grid-cols-[auto,1fr,auto] gap-x-2 gap-y-4 rounded-xl bg-slate-800 p-4 text-sm shadow">
         <a className="col-span-full grid grid-cols-subgrid" href="#">
@@ -46,7 +47,24 @@ const Options = () => {
           </div>
         </a>
       </div>
+
+      <div className="h-14 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+      <div className="h-14 bg-gradient-to-r from-sky-500 to-indigo-500"></div>
+      <div className="h-14 bg-gradient-to-r from-violet-500 to-fuchsia-500"></div>
+      <div className="h-14 bg-gradient-to-r from-purple-500 to-pink-500 checked "></div>
+
+
+<button disabled className="bg-white text-black disabled:bg-gray disabled:text-white">Submit</button>
+
+
+
+
     </section>
+
+
+
+
+</>
   );
 };
 
