@@ -41,6 +41,10 @@ const About = () => {
         <div className="size-20 bg-amber-500 -ml-4 z-20"></div>
         </div>
 
+        <div className=" border size-10 w-[calc(100vw_-_100px)]">
+
+        </div>
+
 
     </div>
   );

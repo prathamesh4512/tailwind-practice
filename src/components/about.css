@@ -35,20 +35,17 @@ grid-auto-rows: 100px  */
 } */
 
 @keyframes ringing_bell {
-    0% {
+    0%,100% {
         transform: rotate(-15deg);
     }
     50% {
         transform: rotate(15deg);
     }
-    100% {
-        transform: rotate(-15deg);
-    }
 }
 
 
 .animate-class{
-    animation: ringing_bell ;
+    animation: ringing_bell 5s ease-in-out  ;
 
 
 }
@@ -63,4 +60,8 @@ p[data-type="primary"]{
 
 .text_shadow{
     text-shadow: 1px 1px blue;
+}
+
+.calculate_width{
+    width: calc(100vw - 100px);
 }
