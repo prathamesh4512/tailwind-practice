@@ -33,3 +33,34 @@ grid-auto-rows: 100px  */
 /* button{
     all: unset;
 } */
+
+@keyframes ringing_bell {
+    0% {
+        transform: rotate(-15deg);
+    }
+    50% {
+        transform: rotate(15deg);
+    }
+    100% {
+        transform: rotate(-15deg);
+    }
+}
+
+
+.animate-class{
+    animation: ringing_bell ;
+
+
+}
+
+p[data-type="primary"]{
+    color:pink;
+}
+
+#id1{
+    color:red
+}
+
+.text_shadow{
+    text-shadow: 1px 1px blue;
+}

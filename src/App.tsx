@@ -7,31 +7,28 @@ import Testimonial from "./components/Testimonial";
 import Options from "./components/Options";
 import Spacing from "./components/Spacing";
 import Interactivity from "./components/Interactivity";
+import About from "./components/About";
 
 function App() {
 
   return (
-    <>
-    <PseudoClasses/>
-    <Options />
-    <Interactivity />
-    <Spacing />
+    <div className="flex flex-col gap-4 px-8 mt-5">
+    <About />
+    {/* <PseudoClasses/> */}
+    {/* <Options /> */}
+    {/* <Interactivity /> */}
+    {/* <Spacing /> */}
     {/* <Testimonial /> */}
     {/* <Subgrid /> */}
     {/* <GridClasses/> */}
-    <FlexClasses />
-    <UtilityClasses />
+    {/* <FlexClasses /> */}
+    {/* <UtilityClasses /> */}
 
       <p className="-m-[10px] min-w-f" >Temp p</p>
       <div className="abc rounded-50 h-10 w-10 bg-slate-400 text-white">
         50%
       </div>
-      <ul>
-        <li>h1</li>
-        <li>h2</li>
-        <li>h3</li>
-
-      </ul>
+     
       <div className="max-sm:text-red-400">
         hello
       </div>
@@ -80,7 +77,7 @@ function App() {
 </table>
 
 
-    </>
+    </div>
   )
 }
 
