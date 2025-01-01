@@ -10,6 +10,7 @@
 .abc {
     @apply about-heading;
     @apply p-tag;
+    background-position: top left;
 }
 
 .p-temp{
@@ -58,10 +59,30 @@ p[data-type="primary"]{
     color:red
 }
 
-.text_shadow{
+/* .text_shadow{
     text-shadow: 1px 1px blue;
-}
+} */
 
 .calculate_width{
     width: calc(100vw - 100px);
+}
+
+.child_selector li:nth-child(2){
+    color:pink
+}
+
+.child_li:is(:hover,:active){
+    color:green;
+}
+
+/* @media (min-width:640px){
+    .text_shadow{
+        text-shadow: 1px 1px blue;
+    }
+} */
+
+@media screen(sm){
+    .text_shadow{
+        text-shadow: 1px 1px blue;
+    }
 }
