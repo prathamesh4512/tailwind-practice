@@ -47,7 +47,7 @@ grid-auto-rows: 100px  */
 
 .animate-class{
     animation: ringing_bell 5s ease-in-out  ;
-
+    @apply text-blue;
 
 }
 
@@ -75,11 +75,15 @@ p[data-type="primary"]{
     color:green;
 }
 
-/* @media (min-width:640px){
+.border{
+    background-color: theme(colors.red.200 / 10%);
+}
+
+@media (min-width:640px){
     .text_shadow{
         text-shadow: 1px 1px blue;
     }
-} */
+}
 
 @media screen(sm){
     .text_shadow{

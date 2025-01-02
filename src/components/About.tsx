@@ -44,8 +44,6 @@ const About = () => {
         </div>
       </div>
 
-
-
       <div className="bg-black p-4 flex z-50">
         <div className="size-20 bg-slate-500 z-10"></div>
         <div className="size-20 bg-amber-500 -ml-4 z-20"></div>
@@ -113,13 +111,30 @@ const About = () => {
         <span>Span</span>
       </ul>
 
-      <div className="[&>*]:[color:red]"/>
-      <div className="[&>*]:text-red-200"/>
+      <div className="[&>*]:[color:red]" />
+      <div className="[&>*]:text-red-200" />
 
-      <div className="text-xs min-[480px]:text-sm sm:text-base">
-      </div>        
+      <p className="!font-medium font-bold">
+        This will be medium even though bold comes later in the CSS.
+      </p>
+
+      <p className="!text-[red] text-violet-300" >
+        color will be read
+      </p>
+
+      <p className="![color:red] text-violet-300">
+        Red color
+      </p>
+
+      <p className="sm:hover:!font-bold" />
+      <p className="[&:not(.class-name)]:!font-bold" />
+      <p className="[&:not(.class-name)]:![font-weight:bold]" />
+
+    
     </div>
   );
 };
 
 export default About;
+
+

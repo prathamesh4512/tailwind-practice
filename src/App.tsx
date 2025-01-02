@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="flex flex-col gap-4 px-8 mt-5">
-    <DarkMode />
+    {/* <DarkMode /> */}
     <About />
     {/* <PseudoClasses/> */}
     {/* <Options /> */}
