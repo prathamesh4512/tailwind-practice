@@ -9,11 +9,13 @@ import Spacing from "./components/Spacing";
 import Interactivity from "./components/Interactivity";
 import About from "./components/About";
 import DarkMode from "./components/darkMode";
+import DynamicClasses from "./components/DynamicClasses";
 
 function App() {
 
   return (
     <div className="flex flex-col gap-4 px-8 mt-5">
+      <DynamicClasses color="blue"> </DynamicClasses>
     {/* <DarkMode /> */}
     <About />
     {/* <PseudoClasses/> */}

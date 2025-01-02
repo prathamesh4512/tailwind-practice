@@ -1,6 +1,10 @@
 import "./about.css";
 
 const About = () => {
+
+
+  const error = true;
+
   return (
     <div>
       <p data-type="primary">Hello About !!</p>
@@ -110,7 +114,7 @@ const About = () => {
         <li>Hello 1</li>
         <span>Span</span>
       </ul>
-
+     {/* Important */}
       <div className="[&>*]:[color:red]" />
       <div className="[&>*]:text-red-200" />
 
@@ -129,6 +133,8 @@ const About = () => {
       <p className="sm:hover:!font-bold" />
       <p className="[&:not(.class-name)]:!font-bold" />
       <p className="[&:not(.class-name)]:![font-weight:bold]" />
+
+    
 
     
     </div>
