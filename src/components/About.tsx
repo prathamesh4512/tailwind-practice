@@ -134,9 +134,12 @@ const About = () => {
       <p className="[&:not(.class-name)]:!font-bold" />
       <p className="[&:not(.class-name)]:![font-weight:bold]" />
 
-    
-
-    
+      <div className="container mx-auto px-4 space-y-2">
+        <div className="size-10 bg-slate-400">Div 1</div>
+        <div className="size-10 bg-slate-400">Div 1</div>
+        <div className="size-10 bg-slate-400">Div 1</div>
+        <div className="size-10 bg-slate-400">Div 1</div>
+      </div>
     </div>
   );
 };

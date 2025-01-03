@@ -50,6 +50,31 @@
 }
 
 @layer utilities {
+
+  .grid-cols-fit-sm{
+    grid-template-columns: repeat(auto-fit,minmax(12rem,1fr)); 
+  }
+
+  .grid-cols-fit-md{
+    grid-template-columns: repeat(auto-fit,minmax(14rem,1fr)); 
+  }
+
+  .grid-cols-fit{
+    grid-template-columns: repeat(auto-fit,minmax(16rem,1fr)); 
+  }
+
+  .grid-cols-fit-lg{
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr)); 
+  }
+
+  .grid-cols-fit-xl{
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr)); 
+  }
+
+  .grid-cols-fit{
+    grid-template-columns: repeat(auto-fit,minmax(var(--min-column-size,16),1fr)); 
+  }
+
   /* not recommended */
   .rounded-50 {
     border-radius: 50%;
@@ -62,4 +87,6 @@
   .content-auto {
     content-visibility: auto;
   }
+
+ 
 }
