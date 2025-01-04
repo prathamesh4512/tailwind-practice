@@ -12,7 +12,7 @@ const ContactForm = () => {
         <div className="bg-teal-400 size-40 rounded-full  absolute -top-28 -right-24 z-0"></div>
         <div className="bg-teal-400 size-40 rounded-full  absolute -bottom-24 -left-20 z-0"></div>
 
-        <div className=" p-8 bg-white rounded-xl text-gray-600 shadow-lg md:w-80 relative z-10">
+        <div className=" p-8 bg-white rounded-xl text-gray-600 shadow-lg relative z-10">
           <form className="flex flex-col gap-4" action="">
             <div>
               <label className="text-base">Your name</label>

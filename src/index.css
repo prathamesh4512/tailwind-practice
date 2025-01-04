@@ -8,8 +8,13 @@
     @apply text-lg;
   }
   span {
-    color: green;
+    /* color: green; */
   }
+
+  html{
+    @apply scroll-smooth;
+  }
+
 }
 
 @layer components {
